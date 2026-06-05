@@ -1,0 +1,2 @@
+X = df.drop("target_column", axis=1)  # Features
+y = df["target_column"]               # Target
