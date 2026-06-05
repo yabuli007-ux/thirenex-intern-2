@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv("dataset.csv")
+
+# Inspect
+print(df.head())
+print(df.info())
