@@ -1,0 +1,5 @@
+from sklearn.ensemble import RandomForestClassifier
+
+model_rf = RandomForestClassifier(random_state=42)
+model_rf.fit(X_train, y_train)
+y_pred_rf = model_rf.predict(X_test)
